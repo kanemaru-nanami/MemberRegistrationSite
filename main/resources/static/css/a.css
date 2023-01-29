@@ -1,0 +1,211 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+  }
+
+  .inner{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* 背景 */
+body{
+    background-image:url(../imgs/記入ページ２背景.jpg);
+    height:500px;
+    min-width:100%;
+    background-repeat:no-repeat ;
+    background-position:center;
+    background-size:100%;
+
+}
+
+
+/* ヘッダー */
+header{
+    height: 50px;
+}
+.logo img{
+    height: 30px;
+    width: auto;
+}
+
+/* 無料会員登録 */
+.container00{
+    display: flex;
+    justify-content: space-around;
+}
+.item00 h1{
+    font-size: 35px;
+}
+.item00 img{
+    width: auto;
+    height: 120px;
+}
+/* ステップバー */
+.progressbar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.progressbar li {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 33.333%;
+    color: #999999;
+    font-weight: bold;
+    counter-increment: steps;
+}
+.progressbar li:before {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 7px auto 20px auto;
+    content: '';
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    content: counter(steps);
+}
+.progressbar li:after {
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: -50%;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: #F5F5F5;
+}
+.progressbar li:first-child:after {
+    content: none;
+}
+.progressbar li.active,
+.progressbar li.complete{
+    color: #0070BD;
+}
+.progressbar li.active:before,
+.progressbar li.complete:before {
+    background-color: #0070BD;
+    color: #FFF;
+}
+.progressbar li.active:after,
+.progressbar li.complete:after {
+    background-color: #0070BD;
+}
+article {
+    margin: 40px 0 ;
+    font-size: 15px;
+  }
+
+
+/* 登録フォーム */
+form{
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.registrationitem03{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows	:30px 30px;
+    font-size: 15px;
+    margin-left: 180px;
+
+}
+.registrationitem{
+    text-align: right;
+    padding: 5px 0px;
+}
+.registrationitem{
+    padding: 5px 0px;
+}
+span{
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px 20px;
+}
+.off{
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px 20px;
+
+}
+li {
+    list-style: none;
+}
+/* プライバシーポリシー */
+.privacy-policy {
+    max-width: 700px;
+    margin: 5px auto;
+    height: 70px;
+    overflow: scroll;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    line-height: 1.5;
+  }
+p.privacy-policy04{
+    font-size: 12px;
+    padding-left: 100px;
+    margin-bottom: 3px;
+    padding-top: 10px;
+}
+.container {
+    padding: 10px;
+    text-align: center;
+  }
+
+  input[type=checkbox] {
+    margin: 15px 5px;
+  }
+
+  input[type=submit] {
+    width: 200px;
+    font-size: 18px;
+  }
+
+.submit{
+    font-size: 20px;
+    text-align: center;
+  }
+  /* フッター */
+  .container05-1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item05{
+    display: flex;
+    text-align: right;
+  }
+  .item05 img{
+    width: auto;
+    height: 30px;
+  }
+  .footertext{
+    font-size: 10px;
+    display: flex;
+    border: none;                             /* 枠線指定 */
+    padding: 5px 10px;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+    }
+
+  .footertext li {
+    padding-right: 15px;
+
+  }
+  .end{
+    text-align: center;
+    font-size: 9px;
+  }

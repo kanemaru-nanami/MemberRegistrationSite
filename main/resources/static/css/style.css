@@ -1,0 +1,302 @@
+@charset "UTF-8";
+html{
+  font-size: 62.5%;
+}
+
+.inner{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 表紙１ページ目 */
+.logo img{
+  width: auto;
+  height: 50px;
+  padding-bottom: 10px;
+}
+
+.bg_test-text {
+  border: none;                             /* 枠線指定 */
+  display:  inline-block;                         /* インラインブロックにする */
+  padding: 10px 20px;                             /* 余白指定 */
+  background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+}
+.bg_test {
+  text-align:  left;    /* 文字中央寄せ */
+  padding:  150px;        /* 余白指定 */
+}
+.bg_test {
+  background-image: url(../imgs/1ページ目大.jpg);
+
+  background-repeat:no-repeat ;
+}
+.container00{
+  display: flex;
+  justify-content:space-between;
+
+
+}
+.container00-a{
+  display: flex;
+  padding-top: 20px;
+
+}
+.container00-a img{
+  width: 120px;
+  height: auto;
+
+
+}
+.site-taitol01 p {
+  font-size: 45px;
+  padding: 50px;
+}
+.site-taitol02 p{
+  font-size: 20px;
+  padding: 0px 50px 50px 50px;
+
+}
+/* 登録ボタン差し込み */
+article{
+  height: 330px;
+  background-color: #D4F6CC; /* 背景色 */
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+article p{
+  font-size: 22px;
+  border-bottom: 3px ;
+  padding-bottom: 30px;
+}
+.container06 {
+  display: flex;
+  justify-content: space-around;
+}
+.register a{
+  font-size: 35px;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8em 3em;
+  background-color: #e3364a; /* 背景色 */
+  box-shadow: 0 5px 0 #ca1c30; /* 影の太さ・色 */
+  border-radius: 60px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none; /* 文字の下線を消す */
+}
+
+.aa img{
+  width: auto;
+  height: 200px;
+}
+
+.bb img{
+  width: auto;
+  height: 200px;
+}
+/* 仕事紹介２ページ目 */
+.bgimgs-section2{
+  background-image: url(../imgs/2ページ目背景.png);
+  background-position:center;
+
+  background-size: 80%;
+  background-repeat:no-repeat ;
+
+
+}
+.page2 h2{
+  font-size: 30px;
+  padding: 50px;
+}
+.container01{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 50px 0px;
+
+}
+.item01 {
+  width: 285px;
+  height: 240px;
+  background: #FFF;
+  border: 4px solid #6f94d8;
+  border-radius: 5%;
+
+  padding: 1.6rem;
+  margin: 20px;
+}
+
+.item01 h3 {
+  color: #6f94d8;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #6f94d8;
+}
+.item01 h3:first-child {
+  margin-top: 0;
+}
+
+.item01 p {
+  color: #2b2b2b;
+  line-height: 1.8rem;
+  font-size: 15px;
+}
+/* ご利用の流れ３ページ目 */
+.bgimgs-section3{
+  background-image: url();
+  background-size: 80%;
+  background-repeat:no-repeat ;
+
+
+
+}
+.page3 h2{
+  font-size: 30px;
+  padding: 50px;
+
+}
+
+
+.container02{
+  display: flex;
+  padding:0px 0px 50px 0px;
+
+
+}
+.item02 {
+  width: 285px;
+  background: #FFF;
+  border: 4px solid #6f94d8;
+  border-radius: 5%;
+
+  padding: 1.6rem;
+  margin: 20px;
+
+}
+
+.item02 h3 {
+  color: #6f94d8;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top:2px dotted #6f94d8;
+}
+.item02 h3:first-child {
+  margin-top: 0;
+}
+
+.item02 p {
+  color: #2b2b2b;
+  line-height: 1.8rem;
+  font-size: 15px;
+}
+/* キャリアサポート４ページ目 */
+.bgimgs-section4{
+  background-image: url(../imgs/背景３ページ目.png);
+  background-position:center;
+  background-size: 70%;
+  background-repeat:no-repeat ;
+
+
+}
+.page4 h2{
+  font-size: 30px;
+  padding: 50px;
+
+}
+
+
+.container04-1 {
+  display: flex;
+  padding: 30px 0px;
+}
+.container04-2 {
+  display: flex;
+  padding: 30px 0px;
+
+}
+.item04-1{
+  background-color:#FFF;
+
+}
+.item04-2{
+  background-color:#FFF;
+}
+
+.item04-1 h3{
+  font-size: 20px;
+  padding-top: 30px;
+}
+.item04-2 h3{
+  font-size: 20px;
+  padding-top: 30px;
+
+}
+.item04-1 p{
+  font-size: 18px;
+  padding: 15px;
+}
+.item04-2 p{
+  font-size: 18px;
+  padding: 15px;
+
+}
+
+.item04-1 img{
+  width: auto;
+  height: 250px;
+}
+
+.item04-2 img{
+  width: auto;
+  height: 250px;
+}
+
+.item04-1 p{
+  font-size: 15px;
+  width: 650px;
+}
+.item04-2 p{
+  font-size: 15px;
+  width: 650px;
+}
+/* フッター５ページ目 */
+.bg-imgs{
+  background-image: url(../imgs/5ページ目背景のコピー.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat ;
+}
+.container05-1{
+  display: flex;
+  justify-content: space-around;
+}
+.container05{
+  display: flex;
+}
+.item05 img{
+  padding-top: 100px;
+  width: 300px;
+}
+.footertext{
+  font-size: 16px;
+  display: flex;
+  border: none;                             /* 枠線指定 */
+  padding: 10px 20px;                             /* 余白指定 */
+  background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+  }
+
+.footertext li {
+  padding-right: 50px;
+
+}
+
+.end{
+  padding: 30px;
+  text-align:center ;
+  font-size: 13px;
+}

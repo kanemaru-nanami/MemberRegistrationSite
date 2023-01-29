@@ -1,0 +1,103 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+  }
+
+  .inner{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* 背景 */
+body{
+  background-image: url(../imgs/register.jpg);
+  background-repeat:no-repeat ;
+  background-position:center;
+  background-size: 100%;
+
+}
+/* ヘッダー */
+header{
+  padding: 20px 0px 0px;
+}
+  .conteiner0{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .conteiner0 img{
+    width: 120px;
+    height: auto;
+  }
+  .item0a{
+    font-size: 24px;
+    margin:auto
+  }
+  /* メイン登録確認項目 */
+  .inner2{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;                             /* 枠線指定 */
+    border: solid 2px rgb(13, 113, 80) ;
+    padding: 10px 20px;                             /* 余白指定 */
+    background-color: rgb(250, 250, 251);     /* 背景色指定 */
+
+  }
+
+  dl{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+.dt{
+  width: 300px;
+  padding-top: 5px;
+  font-size: 15px;
+  line-height: 45px;
+
+}
+.dd{
+  width: 300px;
+  background: rgb(18, 149, 106);
+  display: inline;
+
+}
+.button{
+  text-align: center;
+  font-size: 15px;
+}
+  /* フッター */
+  footer{
+    margin: 30px 0px;
+  }
+  .container05-1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item05{
+    display: flex;
+    text-align: right;
+  }
+  .item05 img{
+    width: auto;
+    height: 30px;
+  }
+  .footertext{
+    font-size: 10px;
+    display: flex;
+    border: none;                             /* 枠線指定 */
+    padding: 5px 10px;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+    }
+
+  .footertext li {
+    padding-right: 15px;
+
+  }
+  .end{
+    text-align: center;
+    font-size: 9px;
+  }
